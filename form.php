@@ -68,15 +68,15 @@
                                         $_SESSION['message'] = 'Gratulacje! Twoje konto zostalo utworzone!';
                                     }
                                     else {
-                                        $_SESSION['message'] = 'Niestety, wystąpił błąd 1';
+                                        $_SESSION['message'] = 'Niestety, wystąpił błąd';
                                     }
                                 }
                                 else {
-                                    $_SESSION['message'] = 'Niestety, wystąpił błąd 2';
+                                    $_SESSION['message'] = 'Niestety, wystąpił błąd';
                                 }
                             }
                             else {
-                                $_SESSION['message'] = 'Niestety, wystąpił błąd 3';
+                                $_SESSION['message'] = 'Niestety, wystąpił błąd';
                             }
                         }
                         else{

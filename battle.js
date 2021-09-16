@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
     let playerStatus;
 
-    enemy.src = "Sprites/PokeFront/" + document.querySelector(".enemysprite").innerHTML + ".png";
-    player.src = "Sprites/Pokeback/" + playerPartySprite[0] + ".png";
+    enemy.src = "Sprites/PokeFront/" + document.querySelector(".enemysprite").innerHTML + ".gif";
+    player.src = "Sprites/Pokeback/" + playerPartySprite[0] + ".gif";
 
     document.querySelector("#staPlayer > span").innerHTML = pokemon[playerId].name;
     document.querySelector("#staEnemy > span").innerHTML = pokemon[enemyId].name;
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function(){
             
             console.log(playerId);
             document.querySelector("#staPlayer > span").innerHTML = pokemon[playerId].name;
-            player.src = "Sprites/Pokeback/" + playerPartySprite[what] + ".png";
+            player.src = "Sprites/Pokeback/" + playerPartySprite[what] + ".gif";
         }
         if(who == "enemy"){
             EnemyMaxHP =  Math.floor(0.01 * (2 * pokemon[enemyId].hp) * enemyLv) + enemyLv + 10;
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function(){
             enemyBar.style.width = EnemyHP / EnemyMaxHP * 100 + "%";
 
             document.querySelector("#staEnemy > span").innerHTML = pokemon[enemyId].name;
-            enemy.src = "Sprites/PokeFront/" + document.querySelector(".enemysprite").innerHTML + ".png";
+            enemy.src = "Sprites/PokeFront/" + document.querySelector(".enemysprite").innerHTML + ".gif";
         }
     }
 
