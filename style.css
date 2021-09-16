@@ -1,0 +1,158 @@
+body{
+    background-image: url("Sprites/Bgs/gamebg.png");
+}
+
+#arena{
+    background-image: url("Sprites/Bgs/battle.png");
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+    height: 480px;
+    border: 5px solid rgba(209, 209, 209, 0.863);
+    border-radius: 5px;
+    transform: translateZ(0);
+    
+}
+
+#textbox{
+    background-color: rgba(209, 209, 209, 0.863);
+    margin: auto;
+    width: 700px;
+    border-radius: 5px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#selection{
+    background-color: rgba(209, 209, 209, 0.863);
+    margin: auto;
+    margin-top: 10px;
+    width: 700px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#switch{
+    background-color: rgba(209, 209, 209, 0.863);
+    margin: auto;
+    margin-top: 10px;
+    width: 160px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#staPlayer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(209, 209, 209, 0.863);
+    position: fixed;
+    width: 220px;
+    height: 90px;
+    top: 350px;
+    left: 300px;
+}
+
+#staEnemy{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(209, 209, 209, 0.863);
+    position: fixed;
+    width: 220px;
+    height: 90px;
+    top: 10px;
+    left: 230px;
+    transform: translateZ(0);
+}
+
+#staPlayer > span, #staEnemy > span{
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    font-weight: 450;
+}
+
+#hpbar{
+    background-color: rgba(138, 138, 138, 0.863);
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 10px;
+}
+
+#hpgreen{
+    background-color: greenyellow;
+    height: 10px;
+}
+
+#moves{
+    text-align: center;
+    height: 50px;
+}
+
+#button1, #button2, #button3, #button4{
+    display: inline-flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+}
+
+#pokeslot1, #pokeslot2, #pokeslot3{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#pokeslot1:hover,  #pokeslot2:hover, #pokeslot3:hover{
+    background-color: rgba(107, 107, 107, 0.863);
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover{
+    background-color: rgba(107, 107, 107, 0.863);
+}
+
+
+
+.playcont{
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    height: 200px;
+    top: 170px;
+    left: 120px;
+    transform: scale(2);
+}
+
+.enemcont{
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    top: 11px;
+    left: 510px;
+    transform: scale(1.5);
+}
+
+#catch{
+    display: none;
+    text-align: center;
+    height: 50px;
+}
+
+#yes, #no{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+}
+
+#yes:hover, #no:hover{
+    background-color: rgba(107, 107, 107, 0.863);
+}
+
+
+
+

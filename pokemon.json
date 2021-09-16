@@ -1,0 +1,489 @@
+pokemon = [
+  {
+    "id": 0,
+    "name": "Chikorita",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "grass"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 16,
+        "into": 1
+      }
+    ],
+    "hp": 45,
+    "attack": 49,
+    "defense": 65,
+    "speed": 45, 
+    "moves": [
+      {
+        "move1": 0,
+        "move2": 1,
+        "move3": 6, 
+        "move4": 3,
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Bayleef",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "grass"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 32,
+        "into": 2
+      }
+    ],
+    "hp": 60,
+    "attack": 63,
+    "defense": 80,
+    "speed": 60, 
+    "moves": [
+      {
+        "move1": 4,
+        "move2": 1,
+        "move3": 5, 
+        "move4": 3,
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Meganium",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "grass"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": false
+      }
+    ],
+    "hp": 80,
+    "attack": 83,
+    "defense": 100,
+    "speed": 80, 
+    "moves": [
+      {
+        "move1": 4,
+        "move2": 6,
+        "move3": 5, 
+        "move4": 3,
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Fennekin",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "fire"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 16,
+        "into": 4
+      }
+    ],
+    "hp": 40,
+    "attack": 62,
+    "defense": 50,
+    "speed": 60, 
+    "moves": [
+      {
+        "move1": 7,
+        "move2": 8,
+        "move3": 11, 
+        "move4": 10,
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Braxien",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "fire"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 36,
+        "into": 5
+      }
+    ],
+    "hp": 59,
+    "attack": 90,
+    "defense": 65,
+    "speed": 73, 
+    "moves": [
+      {
+        "move1": 12,
+        "move2": 8,
+        "move3": 11, 
+        "move4": 10,
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Delphox",
+    "type": [
+      {
+        "dualtype": true,
+        "type1": "fire",
+        "type2": "psychic"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 36,
+        "into": 5
+      }
+    ],
+    "hp": 75,
+    "attack": 114,
+    "defense": 85,
+    "speed": 73, 
+    "moves": [
+      {
+        "move1": 14,
+        "move2": 15,
+        "move3": 11, 
+        "move4": 13,
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Popplio",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "water"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 17,
+        "into": 7
+      }
+    ],
+    "hp": 50,
+    "attack": 66,
+    "defense": 66,
+    "speed": 40, 
+    "moves": [
+      {
+        "move1": 16,
+        "move2": 1,
+        "move3": 22, 
+        "move4": 18,
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Brionne",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "water"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 36,
+        "into": 8
+      }
+    ],
+    "hp": 60,
+    "attack": 91,
+    "defense": 76,
+    "speed": 50, 
+    "moves": [
+      {
+        "move1": 16,
+        "move2": 1,
+        "move3": 19, 
+        "move4": 20,
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Primarina",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "water"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": false
+      }
+    ],
+    "hp": 80,
+    "attack": 126,
+    "defense": 103,
+    "speed": 60, 
+    "moves": [
+      {
+        "move1": 21,
+        "move2": 1,
+        "move3": 22, 
+        "move4": 20,
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Jigglypuff",
+    "type": [
+      {
+        "dualtype": true,
+        "type1": "normal",
+        "type2": "fairy"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 36,
+        "into": 10
+      }
+    ],
+    "hp": 115,
+    "attack": 45,
+    "defense": 23,
+    "speed": 20, 
+    "moves": [
+      {
+        "move1": 16,
+        "move2": 18,
+        "move3": 1, 
+        "move4": 23,
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Wigglytuff",
+    "type": [
+      {
+        "dualtype": true,
+        "type1": "normal",
+        "type2": "fairy"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": false,
+      }
+    ],
+    "hp": 140,
+    "attack": 85,
+    "defense": 68,
+    "speed": 50, 
+    "moves": [
+      {
+        "move1": 21,
+        "move2": 20,
+        "move3": 18, 
+        "move4": 16,
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Porygon",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "normal"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 23,
+        "into": 12
+      }
+    ],
+    "hp": 65,
+    "attack": 85,
+    "defense": 73,
+    "speed": 40, 
+    "moves": [
+      {
+        "move1": 0,
+        "move2": 24,
+        "move3": 25, 
+        "move4": 12,
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Porygon2",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "normal"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 50,
+        "into": 13
+      }
+    ],
+    "hp": 85,
+    "attack": 100,
+    "defense": 130,
+    "speed": 60, 
+    "moves": [
+      {
+        "move1": 26,
+        "move2": 27,
+        "move3": 25, 
+        "move4": 14,
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Porygon-Z",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "normal"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": false
+      }
+    ],
+    "hp": 85,
+    "attack": 135,
+    "defense": 75,
+    "speed": 90, 
+    "moves": [
+      {
+        "move1": 26,
+        "move2": 28,
+        "move3": 25, 
+        "move4": 14,
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Dratini",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "dragon"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 30,
+        "into": 15
+      }
+    ],
+    "hp": 41,
+    "attack": 64,
+    "defense": 50,
+    "speed": 50, 
+    "moves": [
+      {
+        "move1": 29,
+        "move2": 30,
+        "move3": 31, 
+        "move4": 32,
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Dragonair",
+    "type": [
+      {
+        "dualtype": false,
+        "type": "dragon"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": true,
+        "lv": 55,
+        "into": 16
+      }
+    ],
+    "hp": 61,
+    "attack": 84,
+    "defense": 70,
+    "speed": 70, 
+    "moves": [
+      {
+        "move1": 26,
+        "move2": 34,
+        "move3": 32, 
+        "move4": 33,
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Dragonite",
+    "type": [
+      {
+        "dualtype": true,
+        "type1": "dragon",
+        "type2": "flying"
+      }
+    ], 
+    "evolution": [
+      {
+        "check": false
+      }
+    ],
+    "hp": 100,
+    "attack": 134,
+    "defense": 100,
+    "speed": 85, 
+    "moves": [
+      {
+        "move1": 26,
+        "move2": 27,
+        "move3": 35, 
+        "move4": 32,
+      }
+    ]
+  },
+]

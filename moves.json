@@ -1,0 +1,300 @@
+moves = [
+  {
+    "id": 0,
+    "name": "Tackle",
+    "type": "normal",
+    "category": "damage",
+    "damage": 40,
+    "accuracy": 100
+  },
+  {
+    "id": 1,
+    "name": "Growl",
+    "type": "normal",
+    "category": "stat",
+    "target": "enemy",
+    "stat": "attack",
+    "stage": 1,
+    "accuracy": 100
+  },
+  {
+    "id": 2,
+    "name": "Razor Leaf",
+    "type": "grass",
+    "category": "damage",
+    "damage": 55,
+    "accuracy": 95
+  },
+  {
+    "id": 3,
+    "name": "Poison Powder",
+    "type": "poison",
+    "category": "status",
+    "status": "poison",
+    "accuracy": 75
+  },
+  {
+    "id": 4,
+    "name": "Body Slam",
+    "type": "normal",
+    "category": "damage",
+    "damage": 85,
+    "accuracy": 100
+  },
+  {
+    "id": 5,
+    "name": "Solar Beam",
+    "type": "grass",
+    "category": "damage",
+    "damage": 90,
+    "accuracy": 100
+  },
+  {
+    "id": 6,
+    "name": "Petal Blizzard",
+    "type": "grass",
+    "category": "damage",
+    "damage": 120,
+    "accuracy": 75
+  },
+  {
+    "id": 7,
+    "name": "Scratch",
+    "type": "normal",
+    "category": "damage",
+    "damage": 120,
+    "accuracy": 75
+  },
+  {
+    "id": 8,
+    "name": "Tail Whip",
+    "type": "normal",
+    "category": "stat",
+    "target": "enemy",
+    "stat": "defense",
+    "stage": 1,
+    "accuracy": 100
+  },
+  {
+    "id": 9,
+    "name": "Ember",
+    "type": "fire",
+    "category": "damage",
+    "damage": 40,
+    "accuracy": 100
+  },
+  {
+    "id": 10,
+    "name": "Howl",
+    "type": "normal",
+    "category": "stat",
+    "target": "self",
+    "stat": "attack",
+    "stage": 1,
+    "accuracy": 100
+  },
+  {
+    "id": 11,
+    "name": "Flamethrower",
+    "type": "fire",
+    "category": "damage",
+    "damage": 90,
+    "accuracy": 100
+  },
+  {
+    "id": 12,
+    "name": "Psybeam",
+    "type": "psychic",
+    "category": "damage",
+    "damage": 70,
+    "accuracy": 100
+  },
+  {
+    "id": 13,
+    "name": "Fire Blast",
+    "type": "fire",
+    "category": "damage",
+    "damage": 120,
+    "accuracy": 75
+  },
+  {
+    "id": 14,
+    "name": "Psychic",
+    "type": "psychic",
+    "category": "damage",
+    "damage": 90,
+    "accuracy": 100
+  },
+  {
+    "id": 15,
+    "name": "Will-O-Wisp",
+    "type": "fire",
+    "category": "status",
+    "status": "burn",
+    "accuracy": 85
+  },
+  {
+    "id": 16,
+    "name": "Pound",
+    "type": "normal",
+    "category": "damage",
+    "damage": 40,
+    "accuracy": 100
+  },
+  {
+    "id": 17,
+    "name": "Water Gun",
+    "type": "water",
+    "category": "damage",
+    "damage": 40,
+    "accuracy": 100
+  },
+  {
+    "id": 18,
+    "name": "Disarming Voice",
+    "type": "fairy",
+    "category": "damage",
+    "damage": 40,
+    "accuracy": 100
+  },
+  {
+    "id": 19,
+    "name": "Bubble Beam",
+    "type": "water",
+    "category": "damage",
+    "damage": 65,
+    "accuracy": 100
+  },
+  {
+    "id": 20,
+    "name": "Moonblast",
+    "type": "fairy",
+    "category": "damage",
+    "damage": 95,
+    "accuracy": 100
+  },
+  {
+    "id": 21,
+    "name": "Hyper Voice",
+    "type": "normal",
+    "category": "damage",
+    "damage": 90,
+    "accuracy": 100
+  },
+  {
+    "id": 22,
+    "name": "Hydro Pump",
+    "type": "water",
+    "category": "damage",
+    "damage": 110,
+    "accuracy": 80
+  },
+  {
+    "id": 23,
+    "name": "Defense Curl",
+    "type": "normal",
+    "category": "stat",
+    "target": "self",
+    "stat": "defense",
+    "stage": 1,
+    "accuracy": 100
+  },
+  {
+    "id": 24,
+    "name": "Thunder Shock",
+    "type": "electric",
+    "category": "damage",
+    "damage": 40,
+    "accuracy": 100
+  },
+  {
+    "id": 25,
+    "name": "Tri Attack",
+    "type": "normal",
+    "category": "damage",
+    "damage": 90,
+    "accuracy": 100
+  },
+  {
+    "id": 26,
+    "name": "Hyper Beam",
+    "type": "normal",
+    "category": "damage",
+    "damage": 150,
+    "accuracy": 70
+  },
+  {
+    "id": 27,
+    "name": "Thunderbolt",
+    "type": "electric",
+    "category": "damage",
+    "damage": 90,
+    "accuracy": 100
+  },
+  {
+    "id": 28,
+    "name": "Zap Cannon",
+    "type": "electric",
+    "category": "damage",
+    "damage": 120,
+    "accuracy": 80
+  },
+  {
+    "id": 29,
+    "name": "Wrap",
+    "type": "normal",
+    "category": "damage",
+    "damage": 30,
+    "accuracy": 90
+  },
+  {
+    "id": 30,
+    "name": "Leer",
+    "type": "normal",
+    "category": "stat",
+    "target": "enemy",
+    "stat": "defense",
+    "stage": 1,
+    "accuracy": 100
+  },
+  {
+    "id": 31,
+    "name": "Twister",
+    "type": "dragon",
+    "category": "damage",
+    "damage": 40,
+    "accuracy": 90
+  },
+  {
+    "id": 32,
+    "name": "Aqua Tail",
+    "type": "water",
+    "category": "damage",
+    "damage": 90,
+    "accuracy": 90
+  },
+  {
+    "id": 33,
+    "name": "Dragon Tail",
+    "type": "water",
+    "category": "damage",
+    "damage": 60,
+    "accuracy": 90
+  },
+  {
+    "id": 34,
+    "name": "Slam",
+    "type": "water",
+    "category": "damage",
+    "damage": 80,
+    "accuracy": 75
+  },
+  {
+    "id": 35,
+    "name": "Outrage",
+    "type": "dragon",
+    "category": "damage",
+    "damage": 100,
+    "accuracy": 100
+  },
+]
