@@ -11,4 +11,4 @@ List of things that aren't in or working yet and I might add or fix in the futur
 
 This is a non profit project, made purely for fun and to learn 
 
-I might remove the Pokemon theme in the future
+I"m in the process of removing the Pokemon theme but I'll let it be for now
