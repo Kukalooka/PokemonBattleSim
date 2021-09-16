@@ -199,10 +199,10 @@
                                 $row= mysqli_fetch_assoc($result);
                                 echo "<div class='dispoke'>";
                                 if($row["shiny"] == 0){
-                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"].".gif' alt='slot1'>";
+                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"].".png' alt='slot1'>";
                                 }
                                 else{
-                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"]."s".".gif' alt='slot1'>";
+                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"]."s".".png' alt='slot1'>";
                                 }
                                 echo "</div>";
                             }
@@ -218,10 +218,10 @@
                                 $row= mysqli_fetch_assoc($result);
                                 echo "<div class='dispoke'>";
                                 if($row["shiny"] == 0){
-                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"].".gif' alt='slot2'>";
+                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"].".png' alt='slot2'>";
                                 }
                                 else{
-                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"]."s".".gif' alt='slot2'>";
+                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"]."s".".png' alt='slot2'>";
                                 }
                                 echo "</div>";
                             }
@@ -237,10 +237,10 @@
                                 $row= mysqli_fetch_assoc($result);
                                 echo "<div class='dispoke'>";
                                 if($row["shiny"] == 0){
-                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"].".gif' alt='slot3'>";
+                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"].".png' alt='slot3'>";
                                 }
                                 else{
-                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"]."s".".gif' alt='slot3'>";
+                                    echo "<img src='Sprites/PokeFront/".$row["pokemon"]."s".".png' alt='slot3'>";
                                 }
                                 echo "</div>";
                             }
